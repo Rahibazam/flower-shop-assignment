@@ -1,0 +1,108 @@
+/* shared styles */
+
+*{
+    margin: 0px;
+}
+
+.shared-container{
+    width: 1440px;
+}
+
+body{
+    font-family: "lato", sans-serif;
+    color: #272727;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.secondary-font{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.primary-font{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.primary-btn{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #E55473;
+    border-radius: 8px;
+    border: none;
+    padding: 20px 43px;
+    
+}
+
+/* header styles */
+
+.header-banner{
+    /* display: block; */
+    padding-top: 50px;
+    background-color: #FDEEF1;
+}
+
+.header-banner > .shared-container{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-content > h1{
+    margin-bottom: 16px;
+}
+.header-content > p{
+    margin: 16px 0px;
+}
+.header-content > .primary-btn{
+    margin-top: 16px;
+}
+
+@media screen and (max-width: 576px) {
+    .header-banner > .shared-container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .header-banner{
+        padding: 0px 30px;
+    }
+
+    .header-content > h1{
+        font-size: 50px;
+    }
+
+    .header-image > img{
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+/* flower styles */
+
+.featured-flower{
+    padding: 130px 0px;
+    border: #272727 2px solid;
+}
+
+.featured-flower > .shared-container{
+    margin: auto;
+    border: #E55473 2px solid;
+    text-align: center;
+}
+
+.flowers-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flower-1-container{
+    background-color: #F2DEE8;
+}
