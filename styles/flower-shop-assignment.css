@@ -261,3 +261,32 @@ h1{
     } 
     
 }
+
+/* hot deal styles */
+
+.hot-deal{
+    height: 620px;
+    background-color: #FDF6F8;
+    padding: auto;
+}
+
+.hot-deal > .shared-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: auto
+}
+
+.hot-deal-content{
+    width: 594px;
+}
+
+.hot-deal-content > .secondary-font{
+    margin-bottom: 24px;
+}
+
+.hot-deal-content > .primary-font{
+    margin-bottom: 32px;
+}
