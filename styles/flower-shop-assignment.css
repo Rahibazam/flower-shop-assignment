@@ -242,3 +242,22 @@ h1{
     font-size: 24px;
     font-weight: 500;
 }
+
+/* info styles for mobile */
+
+@media screen and (max-width: 576px) {
+    .info-container > .shared-container{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 20% 0%;
+    }
+
+    .delivery-text{
+        margin-bottom: 50px;
+    }
+    .info-flower-text{
+        margin-bottom: 50px;
+    } 
+    
+}
