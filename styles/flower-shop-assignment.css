@@ -323,3 +323,28 @@ h1{
         margin-bottom: 70px;
     }
 }
+
+/* instagram styles */
+
+.instagram{
+    margin-bottom: 128px;
+}
+
+.instagram-content{
+    text-align: center;
+    padding: 0% 34% 0% 34%;
+}
+
+.instagram-content > h3{
+    margin-bottom: 24px;
+}
+
+.instagram-content > p{
+    margin-bottom: 48px;
+}
+
+.instagram > .shared-container{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
