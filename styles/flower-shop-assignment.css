@@ -289,6 +289,10 @@ h1{
     width: 594px;
 }
 
+.hot-deal-content > h3 > span{
+    color: #E55473;
+}
+
 .hot-deal-content > .secondary-font{
     margin-bottom: 24px;
 }
@@ -432,4 +436,41 @@ h1{
         text-align: left;
         padding: 10px;
     }
+}
+
+/* footer styles */
+
+footer{
+    background-color: #111010;
+    height: 449px;
+}
+
+footer > .shared-container{
+    height: 100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+}
+
+.footer-heading{
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.footer-heading > span{
+    color: #E55473;
+}
+
+.footer-container > .primary-font{
+    color: white;
+    margin-bottom: 32px;
+    padding: 0% 30% 0% 30%;
+}
+
+.footer-container > .footer-copyright{
+    font-size: 16px;
+    color: #353535;
 }
