@@ -348,3 +348,24 @@ h1{
     margin: auto;
     justify-content: space-between;
 }
+
+/* instagram styles for mobile */
+
+@media screen and (max-width: 576px) {
+
+    .instagram-content{
+        text-align: center;
+        padding: 0% 10% 0% 10%;
+    }
+
+    .instagram > .shared-container{
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .instagram > .shared-container > div{
+        margin: 10px 0px;
+        
+    }
+}
