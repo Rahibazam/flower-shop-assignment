@@ -382,13 +382,13 @@ h1{
     margin-bottom: 128px;
 }
 
-.latest-deals > .shared-container{
+.latest-deals > .shared-container{ 
     height: 449px;
     display: block;
     align-content: center;
     margin: auto;
     text-align: center;
-    background-image: url(flower-shop-assignment/images/Rectangle\ 9.png);
+    background-image: url(images/Rectangle 9.png);
     background-repeat: no-repeat;
 }
 
