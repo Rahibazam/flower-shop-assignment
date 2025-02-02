@@ -474,3 +474,18 @@ footer > .shared-container{
     font-size: 16px;
     color: #353535;
 }
+
+/* footer styles for mobile*/
+
+@media screen and (max-width: 576px) {
+    footer > .shared-container{
+        width: auto;
+        padding: 0% 10%;
+    }
+
+    .footer-container > .primary-font{
+        color: white;
+        margin-bottom: 32px;
+        padding: 0px;
+    }
+}
