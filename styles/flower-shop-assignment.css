@@ -64,6 +64,8 @@ h1{
     margin-top: 16px;
 }
 
+/* header styles mobile */
+
 @media screen and (max-width: 576px) {
     .header-banner > .shared-container{
         flex-direction: column;
@@ -157,4 +159,55 @@ h1{
     font-weight: bold;
     text-decoration: underline;
     margin-top: 32px;
+}
+
+/* flower styles mobile */
+
+@media screen and (max-width: 576px) {
+    .flower-content{
+        width: 100%;
+        flex-direction: column;
+        /* padding: 120px; */
+        margin: auto;
+        align-content: center;
+    }
+
+    .featured-flower{
+        /* margin: 120px; */
+    }
+
+    .featured-flower > .shared-container{
+        width: 100%;
+        /* margin: 20px; */
+    }
+
+    .flower-container-1{
+        width: 100%;
+    }
+
+    .flower-1-image{
+        width: 100%;
+        ;
+    }
+    .flower-container-2{
+        width: 100%;
+    }
+
+    .flower-2-image{
+        width: 100%;
+    }
+    .flower-container-3{
+        width: 100%;
+    }
+
+    .flower-3-image{
+        width: 100%;
+    }
+
+    .flower-1-name, .flower-2-name, .flower-3-name{
+        margin: 30px 0px 40px 0px;
+    } 
+
+    .flower-2-image > img{
+        width: 100%; 
 }
