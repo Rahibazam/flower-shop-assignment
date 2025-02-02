@@ -212,6 +212,7 @@ h1{
 
 .info-container{
     height: 400px;
+    margin-top: 128px;
 }
 
 .info-container > .shared-container{
@@ -247,6 +248,7 @@ h1{
 @media screen and (max-width: 576px) {
 
     .info-container{
+        margin-top: 100px;
         margin-bottom: 400px;
         padding: auto;
     }
