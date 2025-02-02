@@ -88,21 +88,73 @@ h1{
 
 .featured-flower{
     padding: 130px 0px;
-    border: #272727 2px solid;
+    margin-top: 100px;
 }
 
 .featured-flower > .shared-container{
     margin: auto;
-    border: #E55473 2px solid;
     text-align: center;
 }
 
-.flowers-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.flower-text{
+    margin-bottom: 48px;
 }
 
-.flower-1-container{
+.flower-text > h3{
+    margin-bottom: 24px;
+}
+
+.flower-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flower-1-image{
     background-color: #F2DEE8;
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.flower-2-image{
+    background-color: #DAF0F1;
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.flower-3-image{
+    background-color: #E4ECDC;
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.flower-1-image > img{
+    width: 310px;
+    height: 428px;
+    position: relative;
+    top: 110px;
+}
+
+.flower-2-image > img{
+    width: 370px;
+    height: 370px;
+    position: relative;
+    top: 110px;
+}
+
+.flower-3-image > img{
+    width: 310px;
+    height: 428px;
+    position: relative;
+    top: 110px;
+}
+
+.flower-1-name, .flower-2-name, .flower-3-name{
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 32px;
 }
