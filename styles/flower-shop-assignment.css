@@ -407,3 +407,29 @@ h1{
 .latest-deals-form input[type="submit"] {
     font-weight: normal;
 }
+
+/* latest deals styles for mobile */
+
+@media screen and (max-width: 576px) {
+    .latest-deals > .shared-container{
+        width: 100%;
+    }
+
+    .latest-deals-form input[type="email"] {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .latest-deals-form input[type="submit"] {
+        width: 100%;
+    }
+
+    .latest-deals-form{
+        width: 100%;
+    }
+
+    form{
+        text-align: left;
+        padding: 10px;
+    }
+}
